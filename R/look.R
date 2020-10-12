@@ -41,8 +41,9 @@ get_look = function(look_id, limit=500) {
     if (status_code != 200) {
         stop(sprintf('status code %s', status_code))
     } else {
-        df = readr::read_csv(httr::content(response))
-
+        #df = readr::read_csv(httr::content(response))
+        df = httr::content(response)
+        
         names(df) = names(df) %>%
             stringr::str_to_lower() %>%
             stringr::str_replace_all('\\.', '_') %>%
