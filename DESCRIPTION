@@ -1,9 +1,17 @@
 Package: lookr
 Type: Package
 Title: Looker API Interface for R
-Version: 0.1.0
-Author: Rich Eden
-Maintainer: Rich Eden <richeden57@gmail.com>
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Shingai",
+           family = "Samudzi",
+           role = c("aut","cph"),
+           email = "shingai@asoba.co"))
 Description: Import data into R from a saved Look without row limits or java dependencies.
 License: None
 Encoding: UTF-8
+
+Imports:
+  dplyr,
+  tidyverse,
+  bigrquery
