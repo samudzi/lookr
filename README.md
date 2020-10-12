@@ -19,7 +19,7 @@ LOOKER_CLIENT_SECRET = '???'
 ```
 install.packages('devtools')
 library('devtools')
-install_github('rich1000/lookr')
+install_github('samudzi/lookr')
 ```
 
 ## usage
