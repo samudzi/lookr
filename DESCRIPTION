@@ -5,7 +5,7 @@ Version: 1.0.0
 Authors@R: 
     c(person(given = "Shingai",
            family = "Samudzi",
-           role = c("aut","cph"),
+           role = c("aut","ctb"),
            email = "shingai@asoba.co"))
 Description: Import data into R from a saved Look without row limits or java dependencies.
 License: None
